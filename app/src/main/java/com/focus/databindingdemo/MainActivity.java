@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.focus.databindingdemo.ui.BasicActivity;
 import com.focus.databindingdemo.ui.ObservableActivity;
+import com.focus.databindingdemo.ui.RecyclerViewActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,5 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void openObservable(View view) {
         startActivity(new Intent(this, ObservableActivity.class));
+    }
+
+    public void openRecyclerView(View view) {
+        startActivity(new Intent(this, RecyclerViewActivity.class));
     }
 }

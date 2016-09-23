@@ -6,14 +6,14 @@ package com.focus.databindingdemo.model;
 public class User {
     private String firstName;
     private String lastName;
-    private boolean isVisible;
+    private boolean visible;
 
     public boolean isVisible() {
-        return isVisible;
+        return visible;
     }
 
-    public void setVisiable(boolean visible) {
-        isVisible = visible;
+    public void setVisible(boolean visible) {
+        this.visible = visible;
     }
 
     public User(String firstName, String lastName) {

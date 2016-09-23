@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".ui.BasicActivity"/>
         <activity android:name=".ui.ObservableActivity"/>
+        <activity android:name=".ui.RecyclerViewActivity"/>
     </application>
 
 </manifest>

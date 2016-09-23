@@ -21,7 +21,7 @@ public class BasicActivity extends AppCompatActivity implements IOkListener {
         super.onCreate(savedInstanceState);
         ActivityBasicBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_basic);
         User user = new User("li", "si");
-        user.setVisiable(true);
+        user.setVisible(true);
         binding.setUser(user);
         binding.setMiddleName("bu");
     }
